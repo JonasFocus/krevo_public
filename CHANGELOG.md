@@ -8,9 +8,15 @@ This changelog intentionally summarizes product changes without exposing private
 
 ### Added
 
-- Created the public Krevo repository for release notes, support information, security reporting, and customer-safe documentation.
-- Added public repository guidance that makes clear Krevo is proprietary software and not open source.
+- Established the public Krevo repository as the official place for customer-safe release notes, support references, security reporting, and product documentation.
+- Added a monthly update structure so future public progress can be tracked without publishing private source code.
+- Clarified that Krevo is proprietary software and that this repository does not grant an open-source license.
+- Added public repository guidance that makes clear the private application source remains outside this repository.
+
+### Updated
+
+- Refined public repository language to focus on shipped updates and customer-safe documentation.
 
 ### Notes
 
-- The private application source remains in the private Krevo implementation repository.
+- Private application source, infrastructure, credentials, customer data, and implementation-sensitive notes remain outside this repository.
