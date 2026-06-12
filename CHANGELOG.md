@@ -8,7 +8,7 @@ This changelog intentionally summarizes product changes without exposing private
 
 ### Added
 
-- Created the public Krevo repository for release notes, roadmap updates, support information, and security reporting.
+- Created the public Krevo repository for release notes, support information, security reporting, and customer-safe documentation.
 - Added public repository guidance that makes clear Krevo is proprietary software and not open source.
 
 ### Notes

@@ -2,7 +2,7 @@
 
 Krevo builds managed websites and cloud tools for small businesses.
 
-This is the public repository for Krevo updates. It exists for changelogs, roadmap notes, product documentation, support information, and security contact details.
+This is the public repository for Krevo updates. It exists for changelogs, product documentation, support information, and security contact details.
 
 The Krevo application source code is private.
 
@@ -10,7 +10,6 @@ The Krevo application source code is private.
 
 - Public release notes
 - Product changelog entries
-- Roadmap updates
 - Support and security information
 - Public docs that do not expose private implementation details
 
@@ -30,12 +29,10 @@ The Krevo application source code is private.
 
 See [CHANGELOG.md](./CHANGELOG.md) for public product updates.
 
-See [ROADMAP.md](./ROADMAP.md) for planned work that is safe to share publicly.
-
 ## Security
 
 Please see [SECURITY.md](./SECURITY.md) for vulnerability reporting guidance.
 
 ## License
 
-Krevo is proprietary software. This repository is public for changelog, roadmap, and documentation purposes only. No license is granted for source code, assets, branding, product materials, or documentation unless explicitly stated in writing.
+Krevo is proprietary software. This repository is public for changelog, support, security, and documentation purposes only. No license is granted for source code, assets, branding, product materials, or documentation unless explicitly stated in writing.
