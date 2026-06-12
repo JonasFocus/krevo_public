@@ -4,6 +4,8 @@ Public-facing product updates for Krevo.
 
 This changelog intentionally summarizes product changes without exposing private source code, infrastructure details, credentials, customer data, or internal implementation notes.
 
+Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
+
 ## 2026-06-12
 
 ### Added
