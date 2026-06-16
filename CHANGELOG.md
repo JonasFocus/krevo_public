@@ -6,6 +6,12 @@ This changelog intentionally summarizes product changes without exposing private
 
 Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
 
+## 2026-06-16
+
+### Improved
+
+- **Refreshed sign-in and sign-up.** The sign-in and account-creation pages have a cleaner, more focused design with less clutter and a clearer path to your account.
+
 ## 2026-06-14
 
 Krevo shipped its largest product update yet this week. The marketing site is now public, the client portal has been rebuilt from the ground up, and cloud storage, file sharing, support, and personal task tracking are all live for members.
