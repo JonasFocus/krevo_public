@@ -23,8 +23,9 @@ The Krevo application source code is private.
 ## Current Product Surfaces
 
 - Managed website service for small and local businesses
-- Client portal for account access, billing history, support, tasks, and cloud storage
-- Invite-only Krevo Cloud access
+- Client portal for account access, billing history, support, cloud storage, tasks, and visual tree workspaces
+- Invite-only Krevo Cloud and compute access
+- Public product news and release notes
 
 ## Updates
 

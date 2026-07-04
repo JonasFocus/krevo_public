@@ -6,6 +6,33 @@ This changelog intentionally summarizes product changes without exposing private
 
 Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
 
+## 2026-07-04
+
+Krevo's public site and client portal received a broad product update across account access, member organization tools, and product positioning. This entry also catches up late-June work that had not yet been reflected in the public changelog.
+
+### Added
+
+- **Krevo Trees.** Members can now map ideas, projects, and notes in a visual tree workspace with inline editing, collapsible branches, smooth pan and zoom, and a public product page for visitors who want to learn more.
+- **Expanded Tasks.** The dashboard task board now supports a more complete personal workflow with Backlog, To do, In progress, Technical review, and Paused columns, plus priority labels for sorting day-to-day work.
+- **Product news.** Krevo now has a public news area for product announcements and release notes.
+- **Compute access requests.** Visitors can request access to Krevo's compute offering from the public site.
+
+### Improved
+
+- **Platform hub and product pages.** The public website now gives clearer paths into Websites, Cloud, Compute, Network, and Trees, with refreshed visual design across the main product pages.
+- **Account sign-in.** The login page was rebuilt with a more focused split layout and clearer account entry flow.
+- **Terms and privacy pages.** Legal pages now use a cleaner layout that matches the account experience and is easier to scan.
+- **Support attachments and account workflows.** File attachment handling, quota checks, and routine account workflows were hardened and cleaned up.
+
+### Changed
+
+- **Focused product surface.** The experimental AI assistant has been removed from the customer-facing product while Krevo focuses on managed websites, cloud tools, storage, tasks, and Trees.
+- **Careers page.** The public careers page now makes clear that Krevo is not currently hiring.
+
+### Notes
+
+- This update is intentionally product-level. Private source code, infrastructure details, credentials, customer data, database details, and sensitive implementation notes remain outside this public repository.
+
 ## 2026-06-16
 
 ### Improved
