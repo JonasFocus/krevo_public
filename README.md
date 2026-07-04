@@ -1,48 +1,33 @@
 # Krevo
 
-Krevo builds managed websites and cloud tools for small businesses. The product is closed-source and operated as a managed service.
+Public changelog and customer-safe updates for Krevo.
 
-This is the public repository for Krevo updates. It exists for changelogs, product documentation, support information, and security contact details.
+Krevo builds managed websites and cloud tools for small businesses. The product is proprietary, closed-source, and operated as a managed service.
 
-The Krevo application source code is private.
+This repository exists for public release notes, support references, and security contact details. The Krevo application source code, private operations, customer data, credentials, and sensitive implementation details are not published here.
 
-## What This Repo Is For
+## Start Here
 
-- Public release notes
-- Product changelog entries
-- Monthly product update notes
-- Support and security information
-- Public docs that do not expose private implementation details
-
-## What This Repo Is Not
-
-- It is not the Krevo application source repository
-- It is not an open source project
-- It is not a place for implementation details, deployment internals, database schema notes, customer data, credentials, or private infrastructure
+| Need | Go to |
+| --- | --- |
+| Product changes | [CHANGELOG.md](./CHANGELOG.md) |
+| Monthly updates | [updates/](./updates) |
+| Support guidance | [SUPPORT.md](./SUPPORT.md) |
+| Security reporting | [SECURITY.md](./SECURITY.md) |
 
 ## Current Product Surfaces
 
 - Managed website service for small and local businesses
-- Client portal for account access, billing history, support, cloud storage, tasks, and visual tree workspaces
-- Invite-only Krevo Cloud and compute access
+- Client portal for account access, billing history, support, storage, tasks, and visual planning
+- Invite-only cloud and compute access
 - Public product news and release notes
-
-## Updates
-
-See [CHANGELOG.md](./CHANGELOG.md) for public product updates.
-
-Monthly update notes live in [`updates/`](./updates).
 
 ## Public Issues
 
 Issues may be used for public support requests, documentation corrections, and security-report coordination that does not include sensitive details.
 
-Please do not post private account information, credentials, customer data, or vulnerability details in public issues.
+Do not post account information, credentials, customer data, vulnerability details, or private business information in public issues.
 
-## Security
+## Proprietary Notice
 
-Please see [SECURITY.md](./SECURITY.md) for vulnerability reporting guidance.
-
-## License
-
-Krevo is proprietary software. This repository is public for changelog, support, security, and documentation purposes only. No license is granted for source code, assets, branding, product materials, or documentation unless explicitly stated in writing.
+Krevo is not an open source project. No license is granted for source code, assets, branding, product materials, or documentation unless explicitly stated in writing.
