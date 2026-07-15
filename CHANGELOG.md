@@ -6,6 +6,26 @@ This changelog intentionally summarizes product changes without exposing private
 
 Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
 
+## 2026-07-14
+
+Krevo's latest release centers the product around Cloud: a clearer public entry point and a more polished files experience for members.
+
+### Improved
+
+- **Krevo Cloud is now the main entry point.** The public site opens directly to the Cloud experience, with clearer paths to managed websites, network information, and compute access.
+- **Cloud product pages.** Pricing, navigation, mobile layouts, and page hierarchy were refreshed to make the service easier to understand and browse.
+- **Cloud Files.** The member portal received a cleaner file workspace, more legible status signals, and tighter navigation throughout the account experience.
+- **Account access.** Sign-up now matches the updated sign-in design, while recovery and privacy-request flows are easier to find and use.
+
+### Changed
+
+- **A tighter beta surface.** The active product now focuses on Cloud Files, support, account management, managed websites, and compute access. The public Trees page and the experimental dashboard planning workspaces are no longer active product surfaces.
+- **Release notes are the news source.** Public product updates now live in this changelog and the monthly update notes.
+
+### Notes
+
+- This entry describes customer-facing outcomes only. It does not publish source code, infrastructure, customer data, or internal operations.
+
 ## 2026-07-04
 
 Krevo's public site and client portal received a broad product update across account access, member organization tools, and product positioning. This entry also catches up late-June work that had not yet been reflected in the public changelog.
