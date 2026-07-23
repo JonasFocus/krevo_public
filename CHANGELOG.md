@@ -6,6 +6,28 @@ This changelog intentionally summarizes product changes without exposing private
 
 Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
 
+## 2026-07-23
+
+This release focused on making Krevo Cloud safer under retries, provider interruptions, and partial failures.
+
+### Improved
+
+- **Clearer Cloud plans.** Essential is available for individual storage needs, Ultra adds a larger founding offer, and Team is presented as a waitlist until its shared workspace and member features are ready.
+- **More reliable uploads and cleanup.** Uploads, cancellations, trash operations, and background object cleanup now recover more safely when a request or storage-provider operation is interrupted.
+- **Safer account deletion.** Account deletion can resume after an interruption while preserving the billing, support, refund, and audit records Krevo still needs to retain.
+- **More dependable support.** Ticket and attachment submissions are protected against accidental duplicates, and attachment access has tighter boundaries.
+- **Stronger billing records.** Completed invoice receipts are preserved and checked so a successful payment cannot silently lose its supporting record.
+- **Earlier operational warning.** Krevo now verifies storage availability and critical background work independently, records failures for administrators, and treats stale health evidence as unavailable rather than assuming everything is fine.
+
+### Changed
+
+- **Product promises match availability.** References to Priority Node and Dedicated transfer nodes were removed because those capabilities are not currently offered.
+- **Cloud remains the focus.** The active member experience centers on Cloud Files, support, account settings, and billing history, with compute and managed websites available through their current request-based paths.
+
+### Notes
+
+- This entry summarizes customer-facing reliability and product changes only. It does not publish private source code, infrastructure, credentials, customer data, or sensitive operational details.
+
 ## 2026-07-14
 
 Krevo's latest release centers the product around Cloud: a clearer public entry point and a more polished files experience for members.
