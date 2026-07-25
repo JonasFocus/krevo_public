@@ -6,6 +6,25 @@ This changelog intentionally summarizes product changes without exposing private
 
 Krevo has been in active development since November 2025. This repository now serves as the public changelog for customer-safe product updates.
 
+## 2026-07-25
+
+This release focused on correctness in the places where a problem would otherwise go unnoticed: pricing, account deletion, and the checks that run before anything ships.
+
+### Fixed
+
+- **Founding pricing now always matches what you are charged.** In a narrow case the pricing page could still show the founding rate after the last founding slot had been taken, and checkout would quietly fall back to standard pricing. Availability is now calculated the same way slots are actually assigned, and if pricing changes while you are on the page, checkout stops and asks you to refresh instead of charging a different amount.
+- **Upgrading after an abandoned checkout.** Starting a checkout, leaving it, and coming back to choose a different plan could leave you blocked with an unhelpful message. That path now explains what happened and links to your billing settings.
+- **Account deletion no longer stalls silently.** If a deletion was interrupted partway through, the retry could fail without recording anything. Deletions now detect that case, keep retrying safely, and raise an alert for the Krevo team if one needs attention rather than retrying unnoticed.
+- **Clearer diagnosis when something goes wrong.** Several internal failures previously replaced the original error with a less useful one, which made problems slower to identify and fix. The original cause is now preserved.
+
+### Changed
+
+- **Retired unused surfaces.** Two early dashboard features that were no longer reachable, along with a weather element in the sidebar, were removed. No current functionality is affected.
+
+### Notes
+
+- This entry summarizes customer-facing reliability and billing changes only. It does not publish private source code, infrastructure, credentials, customer data, or sensitive operational details.
+
 ## 2026-07-23
 
 This release focused on making Krevo Cloud safer under retries, provider interruptions, and partial failures.
